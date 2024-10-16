@@ -10,8 +10,18 @@ export const useRequests = () => {
       setError('Preencha todos os campos.');
       return;
     }
-    const newRequest = { service, description, status: 'Pendente' };
+
+    // Adiciona data e hora atuais à nova solicitação
+    const newRequest = {
+      service,
+      description,
+      status: 'Pendente',
+      date: new Date().toISOString(), // Adiciona data e hora
+      completed: false, // Define como não concluída
+    };
+
     setRequests([...requests, newRequest]);
+    setError(null); // Limpa o erro ao adicionar com sucesso
   };
 
   const removeRequest = (index) => {
