@@ -7,16 +7,17 @@ const Input = ({
   onChangeText,
   secureTextEntry = false,
   style,
-  placeholderTextColor = '#999', // Cor padrão para o texto do placeholder
+  placeholderTextColor = '#999',
 }) => {
   return (
     <TextInput
-      style={[styles.input, style]} // Combina os estilos
+      style={[styles.input, style]}
       placeholder={placeholder}
       value={value}
       onChangeText={onChangeText}
       secureTextEntry={secureTextEntry}
-      placeholderTextColor={placeholderTextColor} // Define a cor do texto do placeholder
+      placeholderTextColor={placeholderTextColor}
+      selectionColor="#3498db" // Cor do cursor
     />
   );
 };
@@ -24,12 +25,18 @@ const Input = ({
 const styles = StyleSheet.create({
   input: {
     borderWidth: 1,
-    borderColor: '#ccc',
-    padding: 10,
+    borderColor: '#3adb34',
+    padding: 12,
     borderRadius: 8,
     fontSize: 16,
     marginBottom: 15,
-    color: 'black', // Define a cor do texto para preto
+    color: '#333', // Cor do texto
+    backgroundColor: '#f9f9f9', // Fundo do input
+    elevation: 1, // Para dar um leve efeito de sombra
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.1,
+    shadowRadius: 2,
   },
 });
 
