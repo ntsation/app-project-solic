@@ -56,14 +56,14 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   image: {
-    width: 100, // Ajuste o tamanho da imagem conforme necessário
-    height: 100, // Ajuste o tamanho da imagem conforme necessário
+    width: 100, 
+    height: 100,
     marginBottom: 20,
   },
   welcomeText: {
     fontSize: 24,
     fontWeight: 'bold',
-    marginBottom: 20,
+    textAlign: 'center', // Centraliza o texto horizontalmente dentro do próprio componente
     color: '#2c3e50',
   },
   card: {
