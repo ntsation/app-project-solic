@@ -1,6 +1,6 @@
 ## Autor
 
-👤 **Nathan Souza**
+👤 **Nathan Marinho de Souza**
 
 * Matricula: 202103081241
 * Github: [@ntsation](https://github.com/ntsation)
