@@ -1,8 +1,16 @@
-# app-ecomanuntencao
+## Autor
+
+👤 **Nathan Souza**
+
+* Matricula: 202103081241
+* Github: [@ntsation](https://github.com/ntsation)
+
+
+# Projeto de Aplicativo de Solicitação de Serviços
 
 ## Descrição
 
-ecomanuntencao é um aplicativo React Native para gerenciar solicitações de manutenção. Os usuários podem enviar solicitações, verificar o status das solicitações e os administradores podem gerenciar essas solicitações.
+É um aplicativo React Native para gerenciar solicitações de manutenção. Os usuários podem enviar solicitações, verificar o status das solicitações e os administradores podem gerenciar essas solicitações.
 
 ## Componentes
 
@@ -53,9 +61,3 @@ Tela para enviar novas solicitações localizada em [src/screens/RequestFormScre
 ### - StatusScreen
 
 Tela para visualizar o status das solicitações localizada em [src/screens/StatusScreen.js](src/screens/StatusScreen.js).
-
-## Autor
-
-👤 **Nathan Souza**
-
-* Github: [@ntsation](https://github.com/ntsation)
